@@ -1,4 +1,4 @@
-SCHEMEH=/usr/local/lib/csv9.4.1/ta6le
+SCHEMEH=/usr/lib/csv9.5.3/ta6le
 
 .SUFFIXES: .c .so
 
