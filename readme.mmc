@@ -1,0 +1,37 @@
+* web see ~/git/ChezWEB/
+
+* sockets-stub.c:38:10: fatal error: scheme.h: No such file or directory
+fixed Makefile for my version.
+
+* numeric constants (C macros):
+socket-ffi-values.c
+sockets.sls -- library declaration
+
+sockets.ss  untangled ?
+
+
+** sockets.w   the definitive source:
+
+$ cheztangle sockets.w
+Outputing sockets-stub.c
+Outputing socket-ffi-values.c
+Outputing sockets.sls
+Tangling sockets.ss
+
+*** what is (@< (Build\x20;socket\x20;and\x20;address\x2C;\x20;then\x20;return sock addr addr-len ret )
+
+
+$ chezweave sockets.w
+-> tex:
+sockets.scn
+sockets.idx
+sockets.tex
+
+
+* see define-ffi macro in *.w
+$socket
+
+
+foreign-procedure
+ file:///usr/share/doc/chezscheme9.5-doc/html/foreign.html#./foreign:h2
+(foreign-procedure entry-exp (param-type ...) res-type)
